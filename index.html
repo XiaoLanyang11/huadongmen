@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>103邓情</title>
+    <style>
+        *{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            height: 100vh;/*视口高度的100%*/
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #d3dafa;
+        }
+        .yijihezi{
+            position: fixed;
+            width: 350px;
+            height: 400px;
+            background-color: #8a98c9;
+
+        }
+        .yijicaidan{
+            margin: 60px 0;
+            color: #fff;
+        }
+        .li{
+            padding: 16px 52px;
+            transition: 0.3s;
+        }
+        .yijicaidan>li:hover{
+            background-color: #beb5df;
+        }
+        .li ul{
+            width: 0;
+            height: 280px;
+            padding: 60px 0;
+            position: absolute;
+            top:0;
+            right: 0;
+            overflow: hidden;
+            background-color: #59699b;
+            transition: 0.3s;
+        }
+        .li ul li{
+            padding: 16px 24px;
+            transition: 0.3s;
+        }
+        .li:hover>ul{
+            width: 228px;
+        }
+        .li ul li:hover{
+            background-color: #828eb9;
+        }
+    </style>
+</head>
+<body>
+    <div class="yijihezi">
+        <ul class="yijicaidan">
+                <li class="li">
+                    基础组件
+                    
+                    <ul>
+                         <li>图标</li>
+                         <li>布局</li>
+                        <li>弹出层</li>
+                        <li>轻提示</li>
+                    </ul>
+                </li>   
+            
+        
+            
+                <li class="li">
+                表单组件
+                
+                    <ul>
+                        <li>日历</li>
+                        <li>复选框</li>
+                         <li>输入框</li>
+                         <li>选择器</li>
+                         <li>单选框</li>
+                    </ul>
+                </li>          
+
+            
+                <li class="li">
+                    反馈组件
+                
+                    <ul>
+                        <li>弹出框</li>
+                        <li>加载</li>
+                        <li>消息通知</li>
+                    </ul>
+                </li>    
+                 
+
+                <li class="li">
+                    展示组件
+                
+                    <ul>
+                        <li>倒计时</li>
+                        <li>列表</li>
+                        <li>通知栏</li>
+                        <li>进度条</li>
+                    </ul>
+                </li>    
+                
+            
+        </ul>
+    </div>
+</body>
+</html>
